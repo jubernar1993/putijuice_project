@@ -1,3 +1,5 @@
+#this is the output file
+
 output "ec2_instance_id" {
   description = "ID of the EC2 web server."
   value       = aws_instance.lamp_Stack.id
